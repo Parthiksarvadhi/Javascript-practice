@@ -25,3 +25,7 @@ console.log(typeof a);
 console.log(typeof name);
 console.log(typeof b);
 console.log(typeof c);
+
+let arr=[1,2,3,4,5];
+console.log(typeof arr);
+console.log(Array.isArray(arr));
