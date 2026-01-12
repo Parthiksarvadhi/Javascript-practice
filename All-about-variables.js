@@ -19,3 +19,9 @@ function testdata(){
 testdata
 ();
 console.log(a)
+
+let name="parthik"
+console.log(typeof a);
+console.log(typeof name);
+console.log(typeof b);
+console.log(typeof c);
