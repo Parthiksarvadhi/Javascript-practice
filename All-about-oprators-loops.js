@@ -1,9 +1,17 @@
 const arr = [50,55,80,90,45];
-
-for(let i=0;i<marks.length;i++){
-    let sum=0;
-    if(arr[1]%2===0){
+ let sum=0;
+for(let i=0;i<arr.length;i++){
+   
+    if(arr[i]%2===0){
         sum+=arr[i];
-        console.log("even numbers sum:",sum);
+        
     }
+
 }
+let i=0;
+console.log("even numbers summ:",sum);
+while ( i < arr.length) {
+   sum += arr[i];
+  i++;
+}g
+console.log("total sum using while loop:",sum);
